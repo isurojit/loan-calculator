@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@500&display=swap');
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1529651795107-e5a141e34843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* Heading */
+.heading{
+    font-family: 'Pacifico', cursive;
+}
+
+
+#loading img{
+    width: 35%;
+    height: 35%;
+}
+
+#loading, #results{
+    display: none;
+}
